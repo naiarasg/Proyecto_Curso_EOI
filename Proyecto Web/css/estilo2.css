@@ -70,12 +70,12 @@
 	background-color: #00CCCC;
 	color: #FFFFFF;
 	text-align: center;
-    font-size: 15px;
+    	font-size: 15px;
 	padding: 10px 20px;
 	border: none;
 	border-radius: 4px;
 	box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-    cursor: pointer;
+    	cursor: pointer;
 }
 
 .enviar:hover {
@@ -99,10 +99,10 @@
     top: auto;
     float: left;
     min-width: 300px;
-	width: 320px;
-	line-height: 40px;
+    width: 320px;
+    line-height: 40px;
     font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.1em;
+    font-size: 1.1em;
 }
 
 .cajaemail {
@@ -248,7 +248,7 @@ menu.ul, menu.li {
     font-size: 3em;
     text-shadow: 2px 2px 4px #000000;
     color: brown;
-    padding-top: 17%;
+    padding-top: 15%;
 }
 
 .subtitulo2 {
@@ -260,7 +260,7 @@ menu.ul, menu.li {
     font-size: 1.5em;
     text-shadow: 2px 2px 4px #000000;
     color: brown;
-    padding-top: 22%;
+    padding-top: 20%;
 }
 
 .galeria2 {
@@ -274,7 +274,7 @@ menu.ul, menu.li {
 .botonl2, .botonr2 {
     cursor: pointer;
     position: absolute;
-    top: 55%;
+    top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -332,7 +332,7 @@ menu.ul, menu.li {
 .image1 {
 	float: left;
 	width: 80%;
-    height: auto;
+    	height: auto;
 	padding: 15px;
 	margin-bottom: 0px;
 }
@@ -343,10 +343,10 @@ menu.ul, menu.li {
 
 .image2 {
     width: 80%;
-	float: right;
+    float: right;
     height: auto;
     padding: 15px;
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .image2:hover {
@@ -361,18 +361,18 @@ menu.ul, menu.li {
 }
 
 .titulosec {
-    float: left;
+    	float: left;
 	font-family: 'Lobster Two', cursive;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: center;
-    padding-left: 33%;
+   	padding-left: 33%;
 	font-size: 2em;
 	color: brown;
 }
 
 .parrafos {
-    float: left;
+    	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.3em;
 }
@@ -566,9 +566,9 @@ a.scrollToTop {
 
 fieldset {
 	border-width: 2px;
-    border-style: groove;
-    border-color: threedface;
-    border-image: initial;
+    	border-style: groove;
+    	border-color: threedface;
+    	border-image: initial;
 	width: 65%;
 	padding-bottom: 20px;
 	margin-bottom: 15px;
@@ -587,7 +587,7 @@ legend {
 	font-size: 20px;
 	display: flex;
 	align-items: flex-start;
-    padding-left: 10px;
+    	padding-left: 10px;
 }
 	
 .choice input {
@@ -631,8 +631,8 @@ legend {
 
 .collage .cakes {
 	width: 60%;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    	padding-top: 40px;
+    	padding-bottom: 20px;
 	display: block;
 	margin: auto;
 }
@@ -715,11 +715,11 @@ legend {
     line-height: 1.5em;
     margin-bottom: 1.3em;
     padding-top: 10px;
-	font-size: 1.1em;
+    font-size: 1.1em;
 }
 
 .platos li {
-	font-size: 1.1em;
+    font-size: 1.1em;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.5em;
     margin-left: 20px;
@@ -835,7 +835,7 @@ legend {
 	padding: 10px 20px;
 	border-radius: 4px;
 	font-size: 15px;
-    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    	box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 	cursor: pointer;
 	float: right;
 	margin-top: 30px;
@@ -846,7 +846,7 @@ legend {
 }
 
 .principal3 {
-	background-image: url(../imagenes/blackberry-cupcakes.jpg);
+    background-image: url(../imagenes/blackberry-cupcakes.jpg);
     width: 100%;
     height: 550px;
     margin-bottom: 30px;

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="utf-8" />
+ <title>Ejemplo: Formulario 1</title>
+ <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+	<form action="http://equipo03/formularios/login" method="post">
+	 <div>
+	 <label for="nombre">Nombre: </label>
+	 <input type="text" name="nombre" id="nombre" tabindex="3" autofocus><br>
+
+	 <label for="apellidos">Apellidos: </label>
+	 <input type="text" name="apellidos" id="apellidos" tabindex="2"><br>
+
+	 <input type="radio" name="sexo" value="V"> Varón<br>
+	 <input type="radio" name="sexo" value="M"> Mujer<br>
+	 
+	 <label for="fecha">Fecha de nacimiento: </label>
+	 <input type="date" name="fecha" max="2017-12-31" /><br>
+	 
+	 <label for="email">Email: </label>
+	 <input type="email" name="email" id="email" placeholder="Introduzca su email" />
+
+	 <input type="submit" value="Enviar"> <input type="reset">
+	 <button>Enviar</button>
+	 </div>
+	</form>
+	<br>
+	<form action="http://www.google.com/search" method="get">
+		<input type="text" name="q" id="q" value="site:www.murcialanparty.com">
+		<button><img src="buscar.png" alt="buscador" title="buscador" width="20" /></button>
+		<br>
+		<input type="checkbox" name="casilla" checked />Deportes
+		<br>
+		<input type="radio" name="opcion" value="1" />
+		<input type="radio" name="opcion" value="2" />
+		<input type="radio" name="opcion" value="3" />
+	</form>
+	<br>
+	<select name="menu" size="3">
+		<option value="1" selected>Uno</option>
+		<option value="2">Dos</option>
+		<option value="3">Tres</option>
+		<option value="4">Cuatro</option>
+	</select>
+	<br>
+	<input type="file" name="archivo" />
+</body>
+</html>
+

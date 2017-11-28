@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="utf-8" />
+ <meta name="description" content="Gluten Free Bakery">
+ <meta name="keywords" content="tartas,cupcakes,cookies,muffins">
+ <meta name="author" content="Naiara Selva"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Inicio de sesión / Login</title>
+ <link rel="stylesheet" type="text/css" href="css/reset.css">
+ <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+ <link rel="stylesheet" type="text/css" href="css/estilo2.css"/>
+</head>
+<body class="fondo">
+	<header id="cabecera">
+		<div id="header-left">
+			<img class="logo" src="imagenes/logo.png" alt="logotipo de la empresa" />
+			<p class="slogan">Naiara's cookies<br/>GLUTEN FREE BAKERY</p>
+		</div>
+		<div id="header-right">
+		    <div class="iconos">
+                <span class="fa-stack fa-lg social">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+    			    <a class="icon" href="#"><i class="fa fa-shopping-cart fa-stack-1x" aria-hidden="true"></i></a>
+                </span>
+                <span class="fa-stack fa-lg social">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+    			    <a class="icon" href="#"><i class="fa fa-facebook fa-stack-1x" aria-hidden="true"></i></a>
+                </span>
+                <span class="fa-stack fa-lg social">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+    			    <a class="icon" href="#"><i class="fa fa-twitter fa-stack-1x" aria-hidden="true"></i></a>
+                </span>
+                <span class="fa-stack fa-lg social">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+    			    <a class="icon" href="#"><i class="fa fa-instagram fa-stack-1x" aria-hidden="true"></i></a>
+    		    </span>
+            </div>
+            <div class="telefono">
+        	    <p><i class="fa fa-phone" aria-hidden="true"></i> +34 984 37 60 12</p>
+            </div>
+        </div>
+	</header>
+	<main>
+		<div class="sectionsuperior">
+			<h1>LOG IN</h1>
+			<p>Entra y descrubre nuestro delicioso catálogo libre de gluten.</p>
+		</div>
+        <div class="entrar">
+    		<div class="paginaingreso">
+        		<form action="registro.html" method="post">
+        			<h2 class="nuevo">Nuevo cliente</h2>
+        			<p class="indicacion">¿Todavía no ha probado nuestros productos?<br/><br/>Si aún no es cliente de <strong>Naiara's cookies</strong>, no lo piense más y haga click aquí para formalizar su registro: </p>
+        			<div class="registro">
+        			    <button class="button" type="submit">SIGN UP</button>
+        		    </div>
+        		</form>
+    		</div>
+		    <div class="paginaingreso2">
+    			<form action="login.php" method="post">
+    			    <h2 class="registrado">Soy cliente</h2>
+    				<div class="formlogin">
+    					<div class="infousuario"><label for="email">Email: </label></div>
+    					<div class="control"><input type="email" name="email" id="email" required /></div>
+    				</div>
+    				<div class="formlogin">
+    					<div class="infousuario"><label for="contrasenya">Contraseña: </label></div>
+    					<div class="control"><input type="password" name="contrasenya" id="contrasenya" required /></div>
+    				</div>
+    				<p class="indicacion2"><a href="#">¿Ha olvidado su contraseña?</a></p>
+                    <div class="ingreso">
+    				    <button class="button" type="submit">INGRESAR</button>
+                    </div>
+    			</form>
+		    </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="mailing">
+            <div class="boletin">
+                <form action="boletin.php" method="post">
+                    <div class="suscripcion"><label for="newsletter">Suscríbete a nuestro boletín de noticias</label></div>
+                    <div class="cajaemail"><input type="email" name="newsletter" id="newsletter" placeholder="Su Email" /></div>
+                    <button class="suscribir" type="submit">SUSCRIBIRSE</button>
+                </form>
+            </div>
+            <div class="media2">
+                <a class="app2" href="#"><i class="fa fa-facebook-official" aria-hidden="true" style="color: #3B5998"></i></a>
+                <a class="app2" href="#"><i class="fa fa-twitter-square" aria-hidden="true" style="color: #00aced;"></i></a>
+                <a class="app2" href="#"><i class="fa fa-instagram" aria-hidden="true" style="color: #fb3958;"></i></a>
+            </div>
+        </div>
+    </main>
+    <footer class="pie">
+        <a href="#">FAQ</a>
+        <a href="#">CONTACTO</a>
+        <a href="#">CONDICIONES DE VENTA</a>
+        <a href="#">POLÍTICA DE DEVOLUCIONES</a>
+        <a href="#">ENVIOS</a>
+        <a href="#">FORMAS DE PAGO</a>
+        <address>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2017 Naiara's cookies. Cl Cristóbal Sanz, 44</br>Todos los derechos reservados.</address>
+    </footer>
+</body>
+</html>

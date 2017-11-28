@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="utf-8" />
+ <title>Prueba de evaluación E1: Formularios en la construcción de páginas web</title>
+ <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+	<h1>Contacto</h1>
+	<form action="http://www.inertinc.com/cursos/cursoweb2015/evaluf3/" method="post">
+		<label for="nombreusuario">Nombre: </label>
+		<input type="text" name="nombreusuario" id="nombreusuario" required /></br>
+		
+		<label for="emailusuario">E-mail: </label>
+		<input type="email" name="emailusuario" id="emailusuario" required /></br>
+		
+		<label for="comentario">Comentario: </label>
+		<textarea name="comentario"></textarea></br>
+		
+		<label for="direccion">Dirección: </label>
+		<input type="text" name="direccion" id="direccion" /></br>
+		
+		<label for="provincia">Provincia: </label>
+		<input type="text" name="provincia" id="provincia" /></br>
+		
+		<label for="telefono">Teléfono: </label>
+		<input type="text" name="telefono" id="telefono" required /></br>
+		
+		<label for="paginaweb">Página web:</label>
+		<input type="text" name="paginaweb" id="paginaweb" /></br>
+		
+		<input type="hidden" name="emailalumno" value="contact.naiaraselva@gmail.com" />
+		<input type="hidden" name="plantillacorreo" value="<!DOCTYPE html>
+			<html lang=\&quot;es\&quot;>
+			<head>
+			 <meta charset=\&quot;utf-8\&quot; />
+			 <title>Prueba de recepción de email</title>
+			 <link rel=\&quot;stylesheet\&quot; type=\&quot;text/css\&quot; href=\&quot;estilo.css\&quot; />
+			</head>
+			<body>
+				<p>Se ha recibido un nuevo formulario de contacto del usuario %nombreusuario% con un comentario acerca de la web.</p>
+				<p>El comentario es el siguiente:</br>
+				%comentario%</p>
+				<p>Datos adicionales del usuario:</br>
+				Dirección: %direccion% %provincia%</br>
+				Teléfono: %telefono%</br>
+				Página web: %paginaweb%</p>
+			</body>
+			</html>" />
+		<input type="hidden" name="clavesecreta" value="3a881f46d2" />
+		
+		<button type="submit">Enviar</button>
+	</form>

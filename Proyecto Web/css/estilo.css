@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash');
+
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+
+#cabecera {
+    width: 100%;
+	background-color: #581845;
+    overflow: hidden;
+}
+
+#header-left .slogan,.logo {
+	float: left;
+}
+
+.logo {
+	width: 100px;
+    padding-left: 5px;
+}
+
+.slogan {
+	color: #FFFFFF;
+	font-family: 'Josefin Sans', sans-serif;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+#header-right {
+	float: right;
+    padding-right: 5px;
+}
+
+#header-right .icon {
+    color: #FFFFFF;
+}
+
+#header-right .icon:hover {
+    color: #00FFFF;
+}
+
+.icon-background {
+    display: inline-block;
+    color: #000000;
+}
+
+.social {
+    padding-top: 3%;
+}
+
+.iconos {
+    padding-bottom: 8px;
+}
+
+.telefono {
+	float: right;
+    color: #FFFFFF;
+    font-size: 1.3em;
+}
+
+#menu {
+    width: 20%;
+    height: 480px;
+    background-color: #DDDDDD;
+    border: 2px solid brown;
+    position: absolute;
+}
+
+#menu ul {
+    padding-top: 30px;
+}
+
+#menu ul li {
+    padding: 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #660099;
+    font-family: 'Cherry Swash', cursive;
+    font-size: 1.5em;
+    padding: 3%;
+}
+
+#menu ul li a:hover {
+    color: #CC66CC;
+}
+
+#slider {
+    margin-left: 20%;
+}
+
+.titulo {
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000000;
+    color: brown;
+    padding-top: 13%;
+}
+
+.subtitulo {
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px #000000;
+    color: brown;
+    padding-top: 18%;
+}
+
+.galeria {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    padding-bottom: 20px;
+    z-index: -1;
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.botonl, .botonr {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.botonr {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.botonl:hover, .botonr:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.buscador {
+    padding: 15px;
+}
+
+.formsearch {
+    float: right;
+}
+
+.buscador input {
+    padding: 6px 4px;
+    border-radius: 4px;
+    border-color: #581845;
+}
+
+.buscar {
+    cursor: pointer;
+    background-color: #581845;
+}
+
+.buscar:hover {
+    background-color: #CC66CC;
+}
+
+.secnovedades {
+    width: 100%;
+    padding-left: 10%;
+}
+
+.novedades img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .secnovedades {
+        padding-right: 8%;
+    }
+
+    .secnovedades .novedades {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .secofertas {
+        padding-right: 8%;
+    }
+
+    .secofertas .ofertas {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.novedades {
+    width: 20%;
+    margin-right: 2%;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.novedades:hover {
+    border: 1px solid #777;
+}
+
+.ofertas img {
+    width: 100%;
+    height: auto;
+}
+
+.secofertas {
+    width: 100%;
+    padding-left: 10%;
+}
+
+.ofertas {
+    width: 20%;
+    margin-right: 2%;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.ofertas:hover {
+    border: 1px solid #777;
+}
+
+.description {
+    text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.texto {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.texto2 {
+    text-align: center;
+    text-decoration: line-through;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+    color: #581845;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.media {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.media .app:hover {
+    -webkit-filter: brightness(1.5) contrast(0.8);
+}
+
+.pie {
+    width: 100%;
+    background-color: #333333;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5px;
+}
+
+.pie a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.pie a:hover {
+    color: brown;
+}
+
+.pie address {
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+
+.formregistro {
+    position: relative;
+    border: outset;
+    width: 40%;
+    float: left;
+    padding-bottom: 40px;
+    margin-left: 6%;
+    background-color: #CC9999;
+}
+
+.inscripcion {
+	font-size: 2em;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.formulario {
+	margin: auto;
+    padding-bottom: 10px;
+}
+
+.form {
+	display: block;
+}
+
+.etiqueta {
+	position: relative;
+	top: 10px;
+	cursor: pointer;
+	float: left;
+    left: 35px;
+	font-weight: bold;
+	min-width: 200px;
+	line-height: 20px;
+	font-size: 1.2em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.campo {
+	position: relative;
+	top: auto;
+	display: inline-block;
+    left: 30px;
+	line-height: 20px;
+    padding-bottom: 10px;
+	border-radius: 2px;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.campo input {
+	padding: 8px 6px;
+	border-radius: 4px;
+	font-size: 1.1em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.campo:focus {
+	border: 2px solid #555;
+}
+
+.multicampo {
+    border: none;
+    font-size: 1.1em;
+	font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 220px;
+    margin-bottom: 0;
+}
+
+.crear-cuenta {
+	position: relative;
+	width: 35%;
+	left: 32.5%;
+	top: 20px;
+	bottom: 20px;
+	margin: auto;
+	text-decoration: none;
+	background-color: #008CBA;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 15px 32px;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.crear-cuenta:hover {
+    background-color: #003366;
+}
+
+.imgregistro {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    padding: 6%;
+}
+
+.headerfoto {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+    color: #581845;
+}
+
+.foto {
+    width: 100%;
+    height: auto;
+}
+
+.simbolo {
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+}
+
+.inicio {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.inicio a {
+    text-decoration: underline;
+    font-size: 1.1em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #660099;
+}
+
+.inicio a:hover {
+    text-decoration: none;
+    color: #CC66CC;
+}
+
+.sectionsuperior {
+	padding: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	line-height: 30px;
+}
+
+.sectionsuperior h1 {
+	font-size: 2em;
+    color: #581845;
+}
+
+.sectionsuperior p {
+	font-size: 1.3em;
+    font-weight: bold;
+}
+
+.entrar {
+    position: relative;
+    width: 100%;
+    height: 320px;
+}
+
+@media screen and (max-width: 768px) {
+    .entrar .paginaingreso {
+        width: 80%;
+        margin: 10%;
+        left: 0;
+    }
+
+    .entrar .paginaingreso2 {
+        width: 80%;
+        margin: 10%;
+        left: 0;
+    }
+}
+
+.paginaingreso {
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	height: 320px;
+	left: 15%;
+	margin-right: 10%;
+	font-size: 1.3em;
+	font-family: 'Josefin Sans', sans-serif;
+    background-color: #FFCCCC;
+    border: 2px solid brown;
+}
+
+.paginaingreso2 {
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	height: 320px;
+	left: 15%;
+	font-size: 1.3em;
+	font-family: 'Josefin Sans', sans-serif;
+    background-color: #FFCCCC;
+    border: 2px solid brown;
+}
+
+.paginaingreso .nuevo {
+	font-size: 1.4em;
+	font-family: 'Lobster Two', cursive;
+    padding: 25px;
+    margin-left: 10px;
+}
+
+.paginaingreso2 .registrado {
+    font-size: 1.4em;
+    font-family: 'Lobster Two', cursive;
+	padding: 25px;
+    margin-left: 10px;
+}
+
+.formlogin {
+	display: block;
+}
+
+.infousuario {
+	position: relative;
+	top: auto;
+	float: left;
+	width: 125px;
+	min-width: 125px;
+	font-weight: bold;
+    font-size: 0.9em;
+    line-height: 40px;
+    margin-left: 35px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.control {
+	display: inline-block;
+    line-height: 40px;
+}
+
+.control input {
+	padding: 6px 4px;
+	border-radius: 4px;
+}
+
+.control input:focus {
+    border: 2px solid #555;
+}
+
+.indicacion {
+    padding-top: 20px;
+	padding-bottom: 60px;
+    font-size: 0.8em;
+    margin-left: 15px;
+}
+
+.indicacion2 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 0.8em;
+	margin-left: 50px;
+}
+
+.indicacion2 a:hover {
+    text-decoration: none;
+    color: #008CBA;
+}
+
+.button {
+	text-decoration: none;
+	border: none;
+	text-align: center;
+	padding: 15px 60px;
+	border-radius: 4px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+.registro .button {
+    background-color: #3CBC8D;
+    color: #FFFFFF;
+}
+
+.registro .button:hover {
+    background-color: #005757;
+}
+
+.ingreso .button {
+	background-color: #008CBA;
+	color: #FFFFFF;
+}
+
+.ingreso .button:hover {
+    background-color: #003366;
+}
+
+.fondo {
+    background-image: url(../imagenes/background.jpg);
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+

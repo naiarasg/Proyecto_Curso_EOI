@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="utf-8" />
+ <meta name="description" content="Gluten Free Bakery">
+ <meta name="keywords" content="tartas,cupcakes,cookies,muffins">
+ <meta name="author" content="Naiara Selva"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Inicio de sesión / Registro</title>
+ <link rel="stylesheet" type="text/css" href="css/reset.css">
+ <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+ <link rel="stylesheet" type="text/css" href="css/estilo2.css">
+</head>
+<body>
+	<header id="cabecera">
+		<div id="header-left">
+			<img class="logo" src="imagenes/logo.png" alt="logotipo de la empresa" />
+			<p class="slogan">Naiara's cookies<br/>GLUTEN FREE BAKERY</p>
+		</div>
+		<div id="header-right">
+            <div class="iconos">
+                <span class="fa-stack fa-lg social">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+    			    <a class="icon" href="#"><i class="fa fa-shopping-cart fa-stack-1x" aria-hidden="true"></i></a>
+                </span>
+                <span class="fa-stack fa-lg social">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+    			    <a class="icon" href="#"><i class="fa fa-facebook fa-stack-1x" aria-hidden="true"></i></a>
+                </span>
+                <span class="fa-stack fa-lg social">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+    			    <a class="icon" href="#"><i class="fa fa-twitter fa-stack-1x" aria-hidden="true"></i></a>
+                </span>
+                <span class="fa-stack fa-lg social">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+    			    <a class="icon" href="#"><i class="fa fa-instagram fa-stack-1x" aria-hidden="true"></i></a>
+    		    </span>
+            </div>
+            <div class="telefono">
+        	    <p><i class="fa fa-phone" aria-hidden="true"></i> +34 984 37 60 12</p>
+            </div>
+        </div>
+	</header>
+	<main>
+	    <div class="formregistro">
+    		<h1 class="inscripcion">Formulario de inscripción</h1>
+    		<form action="http://www.inertinc.com/cursos/cursoweb2015/evaluf3/" method="post">
+    		<div class="formulario">
+    			<div class="form">
+    				<div class="etiqueta"><label for="nombreusuario">Nombre: </label></div>
+    				<div class="campo"><input type="text" name="nombreusuario" id="nombreusuario" required /></div>
+    			</div>
+    			<div class="form">
+    				<div class="etiqueta"><label for="apellidos">Apellidos: </label></div>
+    				<div class="campo"><input type="text" name="apellidos" id="apellidos" required /></div>
+    			</div>
+    			<div class="form">
+    				<div class="etiqueta"><label for="cifnif">CIF/NIF: </label></div>
+    				<div class="campo"><input type="text" name="cifnif" id="cifnif" required /></div>
+    			</div>
+    			<div class="form">
+    				<div class="etiqueta"><label for="fecha">Fecha de nacimiento: </label></div>
+    				<div class="campo"><input type="date" name="fecha" id="fecha" max="2017-12-31" /></div>
+    			</div>
+    			<div class="form">
+    				<div class="etiqueta"><label for="email">Email: </label></div>
+    				<div class="campo"><input type="email" name="email" id="email" placeholder="usuario@gmail.com" required /></div>
+    			</div>
+    			<div class="form">
+    				<div class="etiqueta"><label for="telefono">Número de teléfono: </label></div>
+    				<div class="campo"><input type="number" name="telefono" id="telefono" required /></div>
+    			</div>
+    			<div class="form">
+    			    <div class="etiqueta"><label for="sexo">Sexo: </label></div>
+    			    <fieldset class="multicampo">
+    				    <input type="radio" name="sexo" id="male" value="M" />Masculino
+        			    <input type="radio" name="sexo" id="female" value="F" />Femenino
+                    </fieldset>
+    			</div>
+    			<div class="form">
+    				<div class="etiqueta"><label for="contrasenya">Contraseña: </label></div>
+    				<div class="campo"><input type="password" name="contrasenya" id="contrasenya" required /></div>
+    			</div>
+    			<div class="form">
+    				<div class="etiqueta"><label for="confirmacion">Confirmación de la<br/>contraseña: </label></div>
+    				<div class="campo"><input type="password" name="confirmacion" id="confirmacion" required /></div>
+    			</div>
+    			<input type="hidden" name="emailalumno" value="contact.naiaraselva@gmail.com" />
+    			<input type="hidden" name="plantillacorreo" value="<!DOCTYPE html>
+    			<html lang=\&quot;es\&quot;>
+    			<head>
+    			 <meta charset=\&quot;utf-8\&quot; />
+    			 <title>Prueba de recepción de email</title>
+    			 <link rel=\&quot;stylesheet\&quot; type=\&quot;text/css\&quot; href=\&quot;estilo.css\&quot; />
+    			</head>
+    			<body>
+    				<p>Se ha recibido un nuevo formulario de inscripción del usuario %nombreusuario% %apellidos% con su información de contacto.</p>
+    				<p>Datos personales del usuario:</br>
+    				CIF/NIF: %cifnif%</br>
+    				Fecha de nacimiento: %fecha%</br>
+    				Email: %email%</br>
+    				Teléfono: %telefono%</br>
+    				Sexo: %sexo%</p>
+    			</body>
+    			</html>" />
+    			<input type="hidden" name="clavesecreta" value="3a881f46d2" />
+    			<button class="crear-cuenta" type="submit">CREAR CUENTA</button>
+    		</div>
+    		</form>
+        </div>
+        <div class="imgregistro">
+            <h2 class="headerfoto">¡Registrate ahora y comienza a disfrutar!</h2>
+            <img class="foto" src="imagenes/collage-nine-cakes.jpg" alt="collage de nueve tartas distintas" />
+            <img class="simbolo" src="imagenes/singluten.png" alt="símbolo de Sin Gluten" />
+        </div>
+        <div class="inicio">
+            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Volver a la página principal</a>
+        </div>
+        <div class="mailing">
+            <div class="boletin">
+                <form action="boletin.php" method="post">
+                    <div class="suscripcion"><label for="newsletter">Suscríbete a nuestro boletín de noticias</label></div>
+                    <div class="cajaemail"><input type="email" name="newsletter" id="newsletter" placeholder="Su Email" /></div>
+                    <button class="suscribir" type="submit">SUSCRIBIRSE</button>
+                </form>
+            </div>
+            <div class="media2">
+                <a class="app2" href="#"><i class="fa fa-facebook-official" aria-hidden="true" style="color: #3B5998"></i></a>
+                <a class="app2" href="#"><i class="fa fa-twitter-square" aria-hidden="true" style="color: #00aced;"></i></a>
+                <a class="app2" href="#"><i class="fa fa-instagram" aria-hidden="true" style="color: #fb3958;"></i></a>
+            </div>
+        </div>
+    </main>
+    <footer class="pie">
+        <a href="#">FAQ</a>
+        <a href="#">CONTACTO</a>
+        <a href="#">CONDICIONES DE VENTA</a>
+        <a href="#">POLÍTICA DE DEVOLUCIONES</a>
+        <a href="#">ENVIOS</a>
+        <a href="#">FORMAS DE PAGO</a>
+        <address>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2017 Naiara's cookies. Cl Cristóbal Sanz, 44<br/>Todos los derechos reservados.</address>
+    </footer>
+</body>
+</html>

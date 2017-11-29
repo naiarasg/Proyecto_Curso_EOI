@@ -330,14 +330,6 @@ menu.ul, menu.li {
         padding-right: 5%;
     }
 
-    .titulosec {
-        width: 90%;
-        display: block;
-        margin: auto;
-        float: none;
-        padding-right: 20%;
-    }
-
     .image1, .image2 {
         position: absolute;
         display: none;
@@ -378,11 +370,13 @@ menu.ul, menu.li {
 
 .titulosec {
     	float: left;
+	width: 100%;
+	display: block;
+	margin: auto;
 	font-family: 'Lobster Two', cursive;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: center;
-   	padding-left: 33%;
 	font-size: 2em;
 	color: brown;
 }

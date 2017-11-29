@@ -90,6 +90,22 @@
     color: #CC66CC;
 }
 
+@media screen and (max-width: 768px) {
+    #header-left .logo {
+        width: 50px;
+        padding-top: 5px;
+    }
+
+    #header-left .slogan {
+        font-size: 10px;
+        padding-top: 20px;
+    }
+
+    #header-right .iconos,.telefono {
+        font-size: 15px;
+    }
+}
+
 #slider {
     margin-left: 20%;
     max-width: 100%;

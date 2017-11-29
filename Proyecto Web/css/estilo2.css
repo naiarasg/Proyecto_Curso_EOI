@@ -403,6 +403,35 @@ menu.ul, menu.li {
     display: none;
 }
 
+.titulo2 {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+    color: brown;
+    line-height: 80px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.subtitulo2 {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #000000;
+    color: brown;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .slides {
     position: relative;
     width: 100%;
@@ -553,7 +582,7 @@ a.scrollToTop {
     margin-bottom: 30px;
 }
 
-.titulo2 {
+.titulo3 {
     position: absolute;
     width: 100%;
     margin: auto;
@@ -563,10 +592,12 @@ a.scrollToTop {
     text-shadow: 2px 2px 4px #000000;
     color: brown;
     line-height: 80px;
-    padding-top: 15%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
-.subtitulo2 {
+.subtitulo3 {
     position: absolute;
     width: 100%;
     margin: auto;
@@ -575,7 +606,9 @@ a.scrollToTop {
     font-size: 25px;
     text-shadow: 2px 2px 4px #000000;
     color: brown;
-    padding-top: 21%;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .personaliza {

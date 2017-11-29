@@ -92,6 +92,15 @@
 
 #slider {
     margin-left: 20%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.w3-display-container {
+    width: 100%;
+    display: block;
+    margin: auto;
+    position: relative;
 }
 
 .titulo {
@@ -253,7 +262,7 @@
 
 .description {
     text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .texto {

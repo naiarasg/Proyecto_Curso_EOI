@@ -350,6 +350,38 @@
     background-color: #CC9999;
 }
 
+@media screen and (max-width: 768px) {
+    .formregistro {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .inscripcion {
+        font-size: 20px;
+    }
+
+    .form .etiqueta {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .form .campo input {
+        font-size: 15px;
+        padding: 4px 3px;
+    }
+
+    .form .multicampo {
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    .imgregistro {
+        width: 100%;
+        margin-left: 25%;
+    }
+}
+
 .inscripcion {
 	font-size: 2em;
 	text-align: center;
